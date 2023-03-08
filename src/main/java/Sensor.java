@@ -1,5 +1,5 @@
 public class Sensor {
-    public Reading getReading() {
+    public Double getReading() {
         return null;
     }
 }
