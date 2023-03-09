@@ -15,7 +15,15 @@ The villagers depend on the station to know what to wear.
 1. When the temperature is less than 10 degrees Celsius, tell the villagers to put on warm clothes.
 2. When the temperature is above 35 degrees Celsius, tell the villagers to put on light clothes. 
 
-### Refactoring hints
+## Hints
+
+Read the hints below at your discretion.
+
+### Testing
+
+- Avoid using 3rd party mocking libraries (e.g. Mockito).
+
+### Refactoring
 
 - Introduce missing domain concepts (calisthenics rule: [wrap primitives](https://williamdurand.fr/2013/06/03/object-calisthenics/#3-wrap-all-primitives-and-strings))
 - [Replace conditional with polymorphism](https://refactoring.com/catalog/replaceConditionalWithPolymorphism.html)
