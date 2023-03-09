@@ -4,10 +4,10 @@ The weather station provides temperature readings to the villagers of Kolachi.
 
 Installed in the station is one trusty temperature sensor. The sensor is extremely accurate. Since it was installed decades ago, it is a little slow. When it doesn't have a recent reading to report (it must still be processing something), it reports back a stale reading which is blank.
 
-## Objective
+## Objectives
 
 1. Test the legacy `WeatherStation` class
-2. Refactor to improve it
+2. Refactor to improve it ("make the change easy, before making the easy change" -- Kent Beck)
 3. Add the features listed below using TDD
 
 ### Features
