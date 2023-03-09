@@ -12,8 +12,6 @@ Test and refactor the legacy WeatherStation class before adding the features giv
 
 The villagers depend on the station to know what to wear.
 
-Once the code has been tested and refactored, add the following features:
-
 1. When the temperature is less than 10 degrees Celcius, tell the villagers to put on warm clothes.
 2. When the temperature is above 35 degrees Celcius, tell the villagers to put on light clothes. 
 
