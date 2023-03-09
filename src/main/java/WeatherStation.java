@@ -2,12 +2,13 @@ public class WeatherStation {
 
     public void checkTemperature() {
         Sensor sensor = new Sensor();
+        System.out.println("Dear villagers. The current weather is...");
         Double value = sensor.getReading();
         if (value == null) {
-            System.out.println("No reading in the last 5 minutes.");
+            System.out.println("No reading! Please check back soon.");
         } else {
             value = (value - 32) * 5 / 9;
-            System.out.println("The current temperature is " + value + "C.");
+            System.out.println(value + " C");
         }
     }
 }

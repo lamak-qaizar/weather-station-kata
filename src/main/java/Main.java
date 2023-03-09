@@ -3,7 +3,7 @@ public class Main {
         WeatherStation station = new WeatherStation();
         while(true) {
             station.checkTemperature();
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         }
     }
 }
