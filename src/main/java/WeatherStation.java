@@ -8,7 +8,7 @@ public class WeatherStation {
             System.out.println("(no reading)! Please check back soon.");
         } else {
             value = (value - 32) * 5 / 9;
-            System.out.println(value + " C.");
+            System.out.println(value.intValue() + "C.");
         }
     }
 }
