@@ -6,7 +6,7 @@ Installed in the station is one trusty temperature sensor. The sensor is extreme
 
 ## Objective
 
-Test and refactor the legacy WeatherStation class before adding the features given below.
+Test and refactor the legacy `WeatherStation` class before adding the features given below.
 
 ### Features
 
