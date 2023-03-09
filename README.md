@@ -6,7 +6,9 @@ Installed in the station is one trusty temperature sensor. The sensor is extreme
 
 ## Objective
 
-Test and refactor the legacy `WeatherStation` class before adding the features given below.
+1. Test the legacy `WeatherStation` class
+2. Refactor to improve it
+3. Add the features listed below using TDD
 
 ### Features
 
@@ -21,7 +23,7 @@ Read the hints below at your discretion.
 
 ### Testing
 
-- Avoid using 3rd party mocking libraries (e.g. Mockito).
+- Avoid using 3rd party mocking libraries e.g. Mockito (create your own test doubles)
 
 ### Refactoring
 
